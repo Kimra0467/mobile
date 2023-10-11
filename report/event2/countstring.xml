@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <EditText
+        android:id="@+id/csedit_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="none"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:hint="텍스트를 입력하세요"/>
+    <Button
+        android:id="@+id/csbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20sp"
+        android:text="텍스트 길이 계산"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/cstv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="숫자 표시"
+        android:textSize="20sp"/>
+</LinearLayout>
